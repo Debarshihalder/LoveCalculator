@@ -1,0 +1,62 @@
+body{
+    background-color:cornsilk;
+    margin-right: none;
+    margin-left: none;
+}
+h1{
+    text-align: center;
+    font-family:fantasy;
+    font-size:50px;
+    color: red;
+    text-shadow: 5px 5px 20px white;
+}
+button{
+    text-align: center;
+    height: em;
+    width: 10em;
+    font-size: 20px;
+    background:white;
+    border-radius: 5px;
+    border-color:black;
+    margin: auto;
+    padding: ;
+}
+button:hover{
+    background:red;
+}
+
+div{
+   background-image: url("bgimg.jpg");
+   width: 50%;
+   margin: auto;
+   padding: 10px;   
+}
+
+ul{
+    position: relative;
+    padding:10px;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+li{
+    list-style: none;
+    display: block;
+}
+label{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:2em;
+}
+input{
+    font-size:20px;
+    border-radius: 5px;
+    width: auto;
+}
+p{
+    font-family:'consolas';
+    color:brown;
+    font-size: 20px;
+    text-align: center;
+
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Love Calculator</title>
+    <link rel="Stylesheet" href="Index.css">
+  
+    
+</head>
+    <body>
+        <h1>LOVE CALCULATOR</h1>
+        <div class="box">
+    
+                <ul>
+                    <li><label for="Name1">YOUR NAME</label><br>
+                        <input autocomplete="off" type="text" id="Name1"></li>
+                    <li><label for="Name2">CRUSH NAME</label><br>
+                        <input autocomplete="off" type="text" id="Name2"></li>
+                    <li><h1 id="h1">0%</h1></li>
+                    <li><button id="Click">Calculate your love</button></li>
+                    
+                </ul>
+                <p>Page Created by=<span style="color:black">Debarshi</span></p>
+                
+            
+        </div>
+        
+
+        <script>
+
+            document.getElementById("Click").onclick=function(){LoveFunction()};
+            function LoveFunction()
+            {
+                var Name1=document.getElementById("Name1").value;
+                var Name2=document.getElementById("Name2").value;
+                var A=Math.floor(Math.random()*101);
+                if(Name1==0 || Name2==0)
+                {
+                    
+                    document.getElementById("h1").innerHTML="Enter Names First";
+                }
+                else{
+                    document.getElementById("h1").innerHTML=A+"%";
+                }
+                
+            }
+        </script>
+    </body>
+</html>
